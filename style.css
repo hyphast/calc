@@ -32,18 +32,21 @@ body {
 .calc_top-title {
     height: 45px;
     padding-top: 0.8rem;
-}
-
-.calc_top-title:hover {
-    cursor: pointer;
-    transform: translateY(-2px);
+    border-bottom: 2px solid white;
+    padding-bottom: 3.6rem;
 }
 
 .calc_top-output-field {
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 0 0.7rem;
-    border-top: 2px solid white;
-    font-size: 3.7rem;
+    font-size: 2.7rem;
+    text-align: right;
+}
+
+.calc_top-output-field-min {
+    margin-top: 1.7rem;
+    padding: 0 0.7rem;
+    font-size: 1.7rem;
     text-align: right;
 }
 
